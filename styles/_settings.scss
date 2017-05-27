@@ -6,8 +6,11 @@ body{
   font-family: sans-serif;
   font-style: helvetica;
   background-color: rgb(244,243,197);
+  margin: 0;
 }
+header{
+  margin:0;
+  display: flex;
+  justify-content: space-between;
 
-.icono{
-  width: 45px;
 }
