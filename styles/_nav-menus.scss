@@ -1,0 +1,35 @@
+.menu{
+  background-color: white;
+  border:1px solid rgba(145, 97, 4, 0.66);
+  position: relative;
+  width: 60%;
+  margin-left: auto;
+  display: none;
+}
+
+.lista-menu-principal{
+  margin: 0;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.lista-menu-principal :last-child{
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.elemento-lista{
+  list-style:none;
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(145, 97, 4, 0.66);
+
+
+}
+.link-lista {
+  text-decoration: none;
+  color:inherit;
+  margin-left: 20px;
+}
