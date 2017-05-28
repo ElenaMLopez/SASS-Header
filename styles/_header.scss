@@ -1,15 +1,18 @@
 
-header{
+.header-container{
   margin:0;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   background-color: rgb(244,243,197);
 }
 
+
 .icono{
-  width: 45px;
+  width: 140px;
   border: 1px solid rgba(145, 97, 4, 0.66);
 }
+
 .boton{
   background-color: transparent;
   border: none;

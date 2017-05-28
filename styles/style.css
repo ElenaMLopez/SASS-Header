@@ -1,5 +1,6 @@
-header {
+.header-container {
   margin: 0;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,7 +10,7 @@ header {
   background-color: #f4f3c5; }
 
 .icono {
-  width: 45px;
+  width: 140px;
   border: 1px solid rgba(145, 97, 4, 0.66); }
 
 .boton {
@@ -39,19 +40,19 @@ body {
 
 .lista-menu-principal {
   margin: 0;
-  padding-left: 0;
-  padding-top: 10px; }
+  padding-left: 0; }
 
 .lista-menu-principal :last-child {
-  border-bottom: 0;
-  padding-bottom: 0; }
+  border-bottom: 0; }
 
 .elemento-lista {
+  text-transform: uppercase;
   list-style: none;
   font-size: 2em;
   margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(145, 97, 4, 0.66); }
+  border-bottom: 1px solid rgba(145, 97, 4, 0.66);
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .link-lista {
   text-decoration: none;

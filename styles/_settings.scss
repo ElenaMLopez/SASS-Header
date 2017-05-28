@@ -2,11 +2,13 @@
   box-sizing: border-box;
 }
 
+$font-color: black;
+
 body{
   font-family: sans-serif;
   font-size: 14px;
   font-style: helvetica;
-  color: black;
+  color: $font-color;
   background-color: white;
   margin: 0;
 }
