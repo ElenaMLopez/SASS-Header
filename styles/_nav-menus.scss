@@ -1,10 +1,23 @@
+
+
+
+
+
+
+
+
 .menu{
   background-color: white;
   border:1px solid rgba(145, 97, 4, 0.66);
   position: relative;
   width: 60%;
   margin-left: auto;
-  display: none;
+  // display: none;
+  animation: menu 0.5s linear 0.1s;
+}
+
+@keyframes menu {
+transform: translate Y(-20%);
 }
 
 .lista-menu-principal{

@@ -1,3 +1,9 @@
+.top-container {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0; }
+
 .header-container {
   margin: 0;
   padding-top: 10px;
@@ -7,7 +13,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #f4f3c5; }
+  background-color: #f4f3c5;
+  width: 100%; }
 
 .icono {
   width: 140px;
@@ -30,14 +37,30 @@ body {
   background-color: white;
   margin: 0; }
 
+.container, .container1 {
+  border: 5px solid #f4f3c5;
+  margin: 60px 10px 60px 10px;
+  padding: 30px; }
+
+.container1 {
+  margin-top: 250px; }
+
 .menu {
   background-color: white;
   border: 1px solid rgba(145, 97, 4, 0.66);
   position: relative;
   width: 60%;
   margin-left: auto;
-  display: none; }
+  -webkit-animation: menu 0.5s linear 0.1s;
+          animation: menu 0.5s linear 0.1s; }
 
+@-webkit-keyframes menu {
+  -webkit-transform: translate Y(-20%);
+          transform: translate Y(-20%); }
+
+@keyframes menu {
+  -webkit-transform: translate Y(-20%);
+          transform: translate Y(-20%); }
 .lista-menu-principal {
   margin: 0;
   padding-left: 0; }
