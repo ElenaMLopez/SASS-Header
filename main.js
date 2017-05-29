@@ -3,13 +3,13 @@ var button = document.querySelector('#botonMenu');
 
 function menuButton(){
 
-var btn = document.querySelector('#botonMenu');
-if (btn.style.display = 'none') {
-  btn.style.display = 'block';
+var menu = document.querySelector('#menu');
+if (menu.style.display == 'none') {
+  menu.style.display = 'block';
   console.log('llega');
 }
 else {
-  btn.style.display = 'none';
+  menu.style.display = 'none';
 }
 }
 
