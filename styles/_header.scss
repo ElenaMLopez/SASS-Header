@@ -1,6 +1,4 @@
 
-
-
 .top-container{
   position:fixed;
   width: 100%;
@@ -20,7 +18,7 @@
 
 
 .icono{
-  width: 140px;
+  width: 90px;
   border: 1px solid rgba(145, 97, 4, 0.66);
 }
 
@@ -28,6 +26,12 @@
   background-color: transparent;
   border: none;
   padding: 0;
-  width: 140px;
+  width: 90px;
   outline: none;
+}
+
+@media (min-width: 740px) {
+.icono-menu, .boton, .hamburguesa-boton {
+  display: none;
+}
 }
