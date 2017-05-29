@@ -1,5 +1,6 @@
 
 
+
 .top-container{
   position:fixed;
   width: 100%;
@@ -10,9 +11,9 @@
 
 .header-container{
   margin:0;
-  padding-top: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(244,243,197);
   width: 100%
 }
@@ -27,5 +28,6 @@
   background-color: transparent;
   border: none;
   padding: 0;
-
+  width: 140px;
+  outline: none;
 }

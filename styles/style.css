@@ -7,13 +7,15 @@
 
 .header-container {
   margin: 0;
-  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #f4f3c5;
   width: 100%; }
 
@@ -24,7 +26,9 @@
 .boton {
   background-color: transparent;
   border: none;
-  padding: 0; }
+  padding: 0;
+  width: 140px;
+  outline: none; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -53,8 +57,8 @@ body {
   width: 60%;
   margin-left: auto;
   display: none;
-  -webkit-animation: menu 0.75s linear 0s;
-          animation: menu 0.75s linear 0s; }
+  -webkit-animation: menu 1s linear 0s;
+          animation: menu 1s linear 0s; }
 
 @-webkit-keyframes menu {
   0% {
