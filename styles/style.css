@@ -20,14 +20,14 @@
   width: 100%; }
 
 .icono {
-  width: 90px;
+  width: 70px;
   border: 1px solid rgba(145, 97, 4, 0.66); }
 
 .boton {
   background-color: transparent;
   border: none;
   padding: 0;
-  width: 90px;
+  width: 60px;
   outline: none; }
 
 @media (min-width: 740px) {
